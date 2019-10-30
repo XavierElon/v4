@@ -3,16 +3,17 @@ title: 'About Me'
 avatar: './me.jpg'
 skills:
   - C/C++
-  - HTML & (S)CSS
+  - Python
+  - Bash
+  - Linux
+  - HTML & CSS
   - React
   - Vue
   - Node.js
   - Express
-  - GraphQL
-  - NativeScript
 ---
 
-Hello! I'm Brittany, a software engineer based in Boston, MA who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.
-i
-Shortly after graduating from [Northeastern University](https://www.ccis.northeastern.edu/), I joined the engineering team at [Upstatement](https://www.upstatement.com/) where I work on a wide variety of interesting and meaningful projects on a daily basis.
+Hello! I'm Xavier, a software engineer based in Orlando, FL who has a passion for space and renewable engergy. I write code for a non profit organization called Open Learning Exhange.
+
+I'm currently studying Computer Science at [Oregon State University](https://eecs.oregonstate.edu/) and electrical Engineering at [Arizona State University](https://engineering.asu.edu/). I am currently a software and systems engineer intern at [Open Learning Exchange](https://www.ole.org/).
 
