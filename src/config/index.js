@@ -1,38 +1,34 @@
 module.exports = {
   siteTitle: 'Xavier Hollingsworth | Software Engineer',
   siteDescription:
-    'Xavier Hollingsworth is a software engineer based in Boston, MA who specializes in developing (and occasionally designing) exceptional, high-quality websites and applications.',
+    'Xavier Hollingsworth is a software engineer based in Orlando, FL who has a passion for space and renewable engergy. I write code for a non profit organization called Open Learning Exhange.',
   siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
+    'Xavier Hollingsworth, Xavier Elon Hollingsworth, Xavier Elon, XavierElon Xavier, Hollingsworth, Elon, xavierh93, software engineer, front-end engineer, web developer, javascript, oregon state university',
+  siteUrl: 'https://www.xavierelon.com',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
-  email: 'brittany.chiang@gmail.com',
-  github: 'https://github.com/bchiang7',
-  twitterHandle: '@bchiang7',
+  name: 'Xavier Hollingsworth',
+  location: 'Orlando, FL',
+  email: 'xavierelon93@gmail.com',
+  github: 'https://github.com/xavierh93',
+  twitterHandle: '@xavierelon',
   socialMedia: [
     {
       name: 'Github',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/xavierh93',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://www.linkedin.com/in/xavier-hollingsworth-524144127/',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/xavierelon',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/elon_xavier',
     },
   ],
 
