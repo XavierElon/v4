@@ -1,12 +1,11 @@
 ---
-date: '2015-12-21'
-title: 'Creative Technologist Co-op'
-company: 'MullenLowe'
-location: 'Boston, MA'
-range: 'July - Dec 2015'
-url: 'https://www.upstatement.com/'
+date: '2016-05-01'
+title: 'Business Owner/Property Manager'
+company: 'Great Lakes Property Management'
+location: 'Orlando, FL'
+range: 'May 2015 - Present
 ---
 
-- Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery
-- Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness
-- Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more
+- Started my own business at 22 to fund my education and life.
+- Manage investment properties in the Orlando area.
+- Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Depar

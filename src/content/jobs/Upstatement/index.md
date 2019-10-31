@@ -1,12 +1,13 @@
 ---
-date: '2018-05-14'
-title: 'Engineer'
-company: 'Upstatement'
-location: 'Boston, MA'
-range: 'May 2018 - Present'
-url: 'https://www.upstatement.com/'
+date: '2019-10-31'
+title: 'Software Engineer Intern'
+company: 'Open Learning Exchange'
+location: 'Orlando, MA'
+range: 'October 2019 - Present'
+url: 'https://www.ole.org/'
 ---
 
 - Write modern, performant, maintainable code for a diverse array of client and internal projects
-- Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, Wordpress, Prismic, and Netlify
-- Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
+- Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, Python, Vagrant, Docker, and CouchDB
+- Communicate with the CTO daily to talk about problems I may be stuck on or go over future projects
+- Perform web scraping via Python Scripts
