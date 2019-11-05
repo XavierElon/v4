@@ -1,14 +1,15 @@
 ---
 date: '3'
-title: 'OctoProfile'
+title: 'SQL Database Website'
 cover: './octoprofile.png'
-github: 'https://github.com/bchiang7/octoprofile'
-external: 'https://octoprofile.now.sh'
+github: 'https://github.com/xavierh93/xavierh93.github.io'
+external: 'https://xavierh93.github.io'
 tech:
-  - Next.js
-  - Chart.js
-  - GitHub API
+  - Node.js
+  - Python Flask
+  - HTML/CSS
+  - Javascript
 show: 'true'
 ---
 
-A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.
+Implemented HTML/CSS, Javascript, MySQL and Node.js to create a website with an interactive database mimicking a property management company
