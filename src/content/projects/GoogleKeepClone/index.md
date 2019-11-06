@@ -1,14 +1,13 @@
 ---
 date: '2018-12-29'
-title: 'Google Keep Clone'
-cover: './google-keep-clone.png'
-github: 'https://github.com/bchiang7/google-keep-vue-firebase'
-external: 'https://keep-vue.netlify.com/'
+title: 'FTP Network'
+cover: ''
+github: 'https://github.com/xavierh93/ftp-client'
 tech:
-  - Vue
-  - Firebase
-  - SCSS
+  - C
+  - Python
+  - Networking
 show: 'true'
 ---
 
-A simple Google Keep clone built with Vue and Firebase.
+A client-server program that implements FTP. Client can request a directory list or files from the server. Client was written in Python and server was written in C

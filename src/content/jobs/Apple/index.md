@@ -9,5 +9,5 @@ url: 'https://www.ole.org/'
 
 - Write modern, performant, maintainable code for a diverse array of client and internal projects
 - Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, Python, Vagrant, Docker, and CouchDB
-- Communicate with the CTO daily to talk about problems I may be stuck on or go over future projects
+- Communicate with the CTO daily to talk about perplexing problems or go over future projects
 - Perform web scraping via Python Scripts
