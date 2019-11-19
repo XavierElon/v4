@@ -2,7 +2,7 @@
 date: '2018-05-01'
 title: 'Client/Server Chat'
 image: ''
-github: ''
+github: 'https://github.com/xavierh93/chat-client-server'
 external: ''
 tech:
   - C
