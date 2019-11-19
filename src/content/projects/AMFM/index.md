@@ -8,7 +8,7 @@ tech:
   - Ember
   - JS
   - SCSS
-show: 'true'
+show: 'false'
 ---
 */
 
