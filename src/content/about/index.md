@@ -7,10 +7,9 @@ skills:
   - Bash
   - Linux
   - HTML & CSS
-  - React
-  - Vue
   - Node.js
   - Express
+  - Java
 ---
 
 Hello! I'm Xavier, a software engineer based in Orlando, FL who has a passion for space and renewable engergy. I write code for a non profit organization called Open Learning Exhange.
