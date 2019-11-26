@@ -1,4 +1,4 @@
-/*---
+---
 date: '2019-11-11'
 title: 'Planet Python Scraping'
 image: ''
@@ -10,6 +10,5 @@ tech:
   - Bash
 show: 'true'
 ---
-*/
 
 A python script that downloads, zips and uploads OLE's website to a database for viewers with limited internet access.
