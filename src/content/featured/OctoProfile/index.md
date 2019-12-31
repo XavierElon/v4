@@ -12,4 +12,4 @@ tech:
 show: 'true'
 ---
 
-Implemented HTML/CSS, Javascript, MySQL and Node.js to create a website using the Python Flask framework that connects to a database and mimics a live property management website.
+Implemented HTML/CSS, Javascript, MySQL and Node.js to create a website using the Python Flask framework that connects to a database and mimics property management website.
