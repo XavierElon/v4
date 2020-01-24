@@ -1,15 +1,16 @@
 ---
-date: '2016-04-01'
-title: 'CourseSource'
+date: '2020-01-01'
+title: 'Gromcore'
 image: ''
-github: 'https://github.com/bchiang7/WebDevSpring2016/tree/master/public/project'
+github: ''
 external: ''
 tech:
-  - Angular
+  - Typescript
   - Node.js
-  - Express
-  - MongoDB
-show: 'false'
+  - Vue.js
+  - Nest.js
+  - PostgreSQL
+show: 'true'
 ---
 
-Web application built on the MEAN (MongoDB, Express, Angular, Node) stack with the intention of providing Northeastern students a better experience browsing the courses offered at Northeastern.
+Full-stack web application in processing of developing for Getaboard that implements Vue.js, Typescrpipt, Node.js, Nest.js, and PostgreSQL to create an application similar to LinkedIn for young students to connect with companies for volunteer opportunities

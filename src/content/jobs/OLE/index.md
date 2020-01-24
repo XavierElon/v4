@@ -1,9 +1,9 @@
 ---
-date: '2019-10-31'
-title: 'Systems Engineer Intern'
+date: '2019-09-01'
+title: 'Software/Systems Engineer Intern'
 company: 'Open Learning Exchange'
 location: 'Orlando, FL'
-range: 'August - Present'
+range: 'August 2019 - January 2020'
 url: 'https://www.ole.org/'
 ---
 
@@ -11,3 +11,5 @@ url: 'https://www.ole.org/'
 - Develop commands for the command line interface for the Raspberry Pi.
 - Develop and implement VM images via Vagrant and Docker Images
 - Update and maintain website repositories
+- Communicate with the CTO daily to talk about perplexing problems or go over future projects
+- Perform web scraping via Python Scripts
