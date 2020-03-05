@@ -1,8 +1,8 @@
 ---
 title: 'Hi, my name is'
-name: 'Xavier Hollingsworth'
+name: 'Xavier Elon Hollingsworth'
 subtitle: 'I shape the future.'
 contactText: 'Get In Touch'
 ---
 
-I'm a software engineer based in Orlando, FL specializing in software enginering and web development.
+I am a Computer Sciennce and Electrical Engineering Student seeking a fulltime position in the tech or aerospace field.
