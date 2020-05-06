@@ -7,5 +7,6 @@ range: 'January 2020 - Present'
 ---
 
 - Develop deep learning applications using Pycharm and Pytorch
+- Maintain and create new data points for the application using Python
 - Maintain, test and integrate application components.
-- Write modern, maintainable,efficient code for a variety of applications
+- Compiled and Published the iPhone application for a smart crypto trader
