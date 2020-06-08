@@ -1,16 +1,17 @@
 ---
 date: '1'
-title: 'Halcyon Theme'
-cover: './halcyon.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+title: 'RateMyClasses'
+cover: './ratemyclasses.png'
+github: 'https://github.com/xavierelon1/rate_my_classes'
+external: 'http://ratemyclasses.io'
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
-show: 'false'
+  - MongoDB
+  - Express
+  - React
+  - Node.js
+  - AWS (EC2, ALB, Route 53, VPC)
+  - Jenkins CI
+show: 'true'
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+A full-stack MERN application. I was the lead of the 3 other engineers. I am the only one still working on it and fully maintain it via AWS. The website was built to provide university students around the globe access to reviews on their classes and allow them to review their classes as well.
