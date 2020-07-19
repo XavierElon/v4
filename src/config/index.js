@@ -16,11 +16,11 @@ module.exports = {
   socialMedia: [
     {
       name: 'Github',
-      url: 'https://github.com/xavierh93',
+      url: 'https://github.com/xavierelon1',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/xavier-hollingsworth-524144127/',
+      url: 'https://www.linkedin.com/in/xavier-elon-hollingsworth-524144127/',
     },
     {
       name: 'Instagram',
