@@ -1,15 +1,17 @@
 ---
-date: '2017-04-03'
-title: 'myNEU Redesign'
+date: '2020-01-03'
+title: 'Rockets & Astronauts REST API with Auth0 Front-end'
 image: ''
-github: 'https://github.com/bchiang7/Redesign-myNEU'
-external: 'https://bchiang7.github.io/Redesign-myNEU/'
+github: 'https://github.com/XavierElon1/rockets_api_oauth'
+external: 'https://hollingx-final-279620.uc.r.appspot.com'
 tech:
-  - Jekyll
-  - HTML
-  - SCSS
-  - JS
-show: 'false'
+  - Javascript
+  - Node
+  - HTML/CSS
+  - Express
+  - Auth0
+  - Postman
+show: 'true'
 ---
 
-Student web portal prototype built after conducting multiple rounds of user testing that aimed to improve the current portal to provide students at Northeastern University with a better user experience.
+Routed the back-end for Rockets & astronauts for a full REST API. Created a front-end that allowed for user sign-up and login via Auth0. The back-end is only accessable through Postman. The Postman Collection and Environment files have been provided in the repository.

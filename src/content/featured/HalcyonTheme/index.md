@@ -14,4 +14,5 @@ tech:
 show: 'true'
 ---
 
-A full-stack MERN application. I was the leader of 3 other engineers to build this project. I still currently develop and maintain it via AWS. The website was built to provide university students around the globe access to reviews on their classes and allow them to review their classes as well. It is still a work in progress.
+A full-stack MERN application. Led and managed a team of 4 engineers to create a full-stack MERN app for university students to rate and review their university classes.
+Fully deployed and continue to maintain the front and back end with AWS using Route 53, load balancers, EC2s, VPC. Created the routes for the back-end using Node.js, Express and MongoDB. Developed about 25% of the front-end.
