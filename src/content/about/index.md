@@ -12,7 +12,7 @@ skills:
   - React
 ---
 
-Hello! I'm Xavier Elon, a Computer Science graduate and electrical engineering student based in Orlando, FL who has a passion for technology and space. I have my bachelor's in Computer Science from Oregon State University. I am also currently studying Electrical Engineering at Arizona State University.
+Hello! I'm Xavier Elon, a Computer Science graduate based in Orlando, FL who has a passion for technology and space. I have my bachelor's in Computer Science from Oregon State University. I am also currently studying Electrical Engineering at Arizona State University.
 
 I run my own successful property management company which has allowed me to develop strong business and people skills alongside my engineering passions.
 
