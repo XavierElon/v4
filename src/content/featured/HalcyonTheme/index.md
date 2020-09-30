@@ -1,5 +1,5 @@
 ---
-date: '02/01/2020'
+date: '1'
 title: 'RateMyClasses'
 cover: './ratemyclasses.png'
 github: 'https://github.com/xavierelon1/rate_my_classes'
