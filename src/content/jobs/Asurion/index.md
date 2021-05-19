@@ -7,6 +7,6 @@ range: 'October 2020 - Present'
 url: 'https://www.asurion.com'
 ---
 
-- Wrote modern, performant, maintainable code for a Full-stack web application in processing of developing for Getaboard that implements Vue.js, Typescrpipt, Node.js, Nest.js, and PostgreSQL to create an application similar to LinkedIn for young students to connect with companies for volunteer opportunities
-- Maintain, test and integrate application components.
-  å
+- Work heavily with AWS and a little with Jenkins. Fully moved all of the pipelines and database refresh jobs from Jenkins to AWS Codepipeline and Codebuild.
+- Fully ported all 4 environements of our three main projects from EC2 instances to ECS containers in AWS.
+-

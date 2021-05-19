@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Xavier Hollingsworth | Software Engineer',
   siteDescription:
-    'Xavier Hollingsworth is a software engineer based in Orlando, FL who has a passion for space and renewable engergy. I write code for a non profit organization called Open Learning Exhange.',
+    'Xavier Hollingsworth is a software engineer based in Orlando, FL who has a passion for tech, blockchain and space. I am currently working as a Full-Stack software engineer at Deloitte under a contract for the IRS.',
   siteKeywords:
     'Xavier Hollingsworth, Xavier Elon Hollingsworth, Xavier Elon, XavierElon Xavier, Hollingsworth, Elon, xavierh93, software engineer, front-end engineer, web developer, javascript, oregon state university',
   siteUrl: 'https://www.xavierelon.com',
@@ -56,7 +56,7 @@ module.exports = {
   navyColor: '#0a192f',
   darkNavyColor: '#020c1b',
 
-  srConfig: (delay = 200) => ({
+  srConfig: (delay = 100) => ({
     origin: 'bottom',
     distance: '20px',
     duration: 500,
