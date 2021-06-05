@@ -11,4 +11,4 @@ tech:
 show: 'true'
 ---
 
-TCP chat client program that allows a client and server to exchange messages. The server was written in python and the client was written in C.
+TCP chat client program that allows a client and server to exchange messages. The server was written in Python and the client was written in C.

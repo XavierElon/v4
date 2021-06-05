@@ -10,7 +10,7 @@ tech:
   - Vue.js
   - Nest.js
   - PostgreSQL
-show: 'true'
+show: 'false'
 ---
 
 Full-stack web application in processing of developing for Getaboard that implements Vue.js, Typescrpipt, Node.js, Nest.js, and PostgreSQL to create an application similar to LinkedIn for young students to connect with companies for volunteer opportunities

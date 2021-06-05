@@ -8,7 +8,7 @@ tech:
   - BASH
   - Vagrant
   - Docker
-show: 'true'
+show: 'false'
 ---
 
 A command line interface writte for the Raspberry Pi's that Open Learning Exchange uses for their bluetooth app.

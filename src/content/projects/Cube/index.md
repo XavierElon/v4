@@ -10,4 +10,4 @@ show: 'true'
 ---
 
 
-A text based game based off of the movie Cube. Implements data structures, polymorphism, pointers, and more.
+A text based game based off of the movie Cube. Implements data structures, polymorphism, pointers, iheritance, objects, memory management and more.

@@ -7,9 +7,8 @@ range: 'August 2019 - January 2020'
 url: 'https://www.ole.org/'
 ---
 
-- Develop and maintain the blue tooth capabilities on Raspberry Pis to provide educational infrastructure to learners and educators in remote areas of the globe
-- Develop commands for the command line interface for the Raspberry Pi.
-- Develop and implement VM images via Vagrant and Docker Images
-- Update and maintain website repositories
-- Communicate with the CTO daily to talk about perplexing problems or go over future projects
-- Perform web scraping via Python Scripts
+- Developed and maintained the blue tooth capabilities on Raspberry Pis to provide educational infrastructure to learners and educators in remote areas of the globe.
+- Wrote commands for the command line interface for the Raspberry Pi.
+- Developed and implemented VM images via Vagrant and Docker Images.
+- Communicate with the CTO daily to talk about perplexing problems or go over future projects.
+- Created a web scraping project to fetch resources daily and upload them to CouchDB to then be accessed from our Android application.
