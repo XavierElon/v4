@@ -1,6 +1,6 @@
 ---
-date: '2'
-title: 'SQL Database Website'
+date: '1'
+title: 'Property Management Website'
 cover: './octoprofile.png'
 github: 'https://github.com/xavierh93/xavierh93.github.io'
 external: 'https://flask-cs340.herokuapp.com'
