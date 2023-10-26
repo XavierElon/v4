@@ -1,7 +1,8 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import styled, { createGlobalStyle } from 'styled-components';
 import { Layout, Hero, About, Jobs, Featured, Projects, Contact } from '@components';
+import Portal from '@components/custom/Portal';
 
 const StyledMainContainer = styled.main`
   counter-reset: section;
@@ -20,8 +21,27 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
+const PortalContainer = styled.div`
+  position: fixed;
+  top: 100px; // Always stay 10px from the top
+  left: ${props => (props.centered ? '50%' : '10px')};
+  transform: ${props => (props.centered ? 'translateX(-50%) scale(1)' : 'scale(0.15)')};
+  width: ${props => (props.centered ? '35%' : '0%')};
+  transition:
+    left 0.5s ease-in-out,
+    transform 0.5s ease-in-out;
+  z-index: 500;
+
+  &:hover {
+    transform: ${props => (props.centered ? 'translateX(-50%) scale(1)' : 'scale(0.25)')};
+  }
+`;
+
 const IndexPage = ({ location }) => {
   const heroRef = useRef(null);
+  const portalRef = useRef(null);
+  // const starWarsRef = (useRef < HTMLDivElement) | (null > null);
+  const [showPortal, setShowPortal] = useState(false);
 
   useEffect(() => {
     const updateMousePosition = ev => {
@@ -38,12 +58,39 @@ const IndexPage = ({ location }) => {
     };
   }, []);
 
+  useEffect(() => {
+    const handleOutsideClick = event => {
+      // console.log('Clicked target: ', event.target); // Check the clicked element
+
+      if (showPortal && portalRef.current && !portalRef.current.contains(event.target)) {
+        setShowPortal(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleOutsideClick);
+
+    return () => {
+      document.removeEventListener('mousedown', handleOutsideClick);
+    };
+  }, [showPortal]);
+
+  const handlePortalOpen = e => {
+    if (!showPortal) {
+      // Only toggle the portal if it's not enlarged
+      setShowPortal(true);
+    }
+    e.stopPropagation();
+  };
+
   return (
     <div ref={heroRef}>
       <GlobalStyle />
       <div>
         <Layout location={location}>
           <StyledMainContainer>
+            <PortalContainer centered={showPortal} onClick={handlePortalOpen} ref={portalRef}>
+              <Portal />
+            </PortalContainer>
             <Hero />
             <About />
             <Jobs />
