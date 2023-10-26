@@ -23,7 +23,7 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const PortalContainer = styled.div`
-  position: fixed;
+  position: relative;
   top: 100px; // Always stay 10px from the top
   left: ${props => (props.centered ? '50%' : '10px')};
   transform: ${props => (props.centered ? 'translateX(-50%) scale(1)' : 'scale(0.15)')};
