@@ -8,11 +8,7 @@ const StyledMainContainer = styled.main`
   counter-reset: section;
 `;
 
-interface PortalContainerProps {
-  centered: boolean;
-}
-
-const PortalContainer = styled.div<PortalContainerProps>`
+const PortalContainer = styled.div`
   position: fixed;
   top: 100px; // Always stay 10px from the top
   left: ${props => (props.centered ? '50%' : '10px')};
@@ -28,22 +24,13 @@ const PortalContainer = styled.div<PortalContainerProps>`
   }
 `;
 
-interface IndexPageProps {
-  location: {
-    pathname: string;
-    search: string;
-    state: any;
-    hash: string;
-  };
-}
+const IndexPage = ({ location }) => {
+  const heroRef = useRef(null);
+  const portalRef = useRef(null);
+  const starWarsRef = useRef(null);
+  const [showPortal, setShowPortal] = useState(false);
 
-const IndexPage: React.FC<IndexPageProps> = ({ location }) => {
-  const heroRef = useRef<HTMLDivElement | null>(null);
-  const portalRef = useRef<HTMLDivElement | null>(null);
-  const starWarsRef = useRef<HTMLDivElement | null>(null);
-  const [showPortal, setShowPortal] = useState<boolean>(false);
-
-  const handleContainerClick = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+  const handleContainerClick = e => {
     if (!showPortal) {
       // Only toggle the portal if it's not enlarged
       setShowPortal(true);
@@ -52,7 +39,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ location }) => {
   };
 
   useEffect(() => {
-    const updateMousePosition = (ev: MouseEvent) => {
+    const updateMousePosition = ev => {
       if (!heroRef.current) return;
       const { clientX, clientY } = ev;
       document.documentElement.style.setProperty('--x', `${clientX}px`);
@@ -67,15 +54,15 @@ const IndexPage: React.FC<IndexPageProps> = ({ location }) => {
   }, []);
 
   useEffect(() => {
-    const handleOutsideClick = (event: MouseEvent) => {
+    const handleOutsideClick = event => {
       console.log('Clicked target: ', event.target); // Check the clicked element
 
       if (
         showPortal &&
         portalRef.current &&
-        !portalRef.current.contains(event.target as Node) &&
+        !portalRef.current.contains(event.target) &&
         starWarsRef.current &&
-        !starWarsRef.current.contains(event.target as Node)
+        !starWarsRef.current.contains(event.target)
       ) {
         console.log('Closing portal.'); // Check if the portal is being closed
 
@@ -93,21 +80,19 @@ const IndexPage: React.FC<IndexPageProps> = ({ location }) => {
   return (
     <div ref={heroRef}>
       <style jsx global>
-        {
-          `
-        html body {
-          height: 100vh;
-          width: 100%;
-          background-color: var(--navy) !important;
+        {`
+          html body {
+            height: 100vh;
+            width: 100%;
+            background-color: var(--navy) !important;
 
-          background-image: radial-gradient(
-            circle 250px at var(--x, 10px) var(--y, 10px),
-            #0404b5 0%,
-            var(--navy) 100%
-          ) !important;
-        }
-      ` as any
-        }
+            background-image: radial-gradient(
+              circle 250px at var(--x, 10px) var(--y, 10px),
+              #0404b5 0%,
+              var(--navy) 100%
+            ) !important;
+          }
+        `}
       </style>
       <div>
         <Layout location={location}>

@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
 
-const StyledContainer = styled.div.attrs<{ isPortalOpen?: boolean }>(props => ({
-  // Here, we don't pass down the isPortalOpen prop to the DOM element
-}))<{ isPortalOpen?: boolean }>`
+const StyledContainer = styled.div.attrs(props => ({}))`
   margin: 0;
   min-height: 100vh;
   min-width: 35vh;
@@ -11,8 +9,8 @@ const StyledContainer = styled.div.attrs<{ isPortalOpen?: boolean }>(props => ({
   align-items: center;
   justify-content: center;
   position: fixed;
-  top: ${props => (props.isPortalOpen ? '-20%' : '-12%')};
-  left: ${props => (props.isPortalOpen ? '50%' : '40%')};
+  top: ${props => (props.isPortalOpen ? '65%' : '-12%')};
+  left: ${props => (props.isPortalOpen ? '60%' : '40%')};
   transform: ${props => (props.isPortalOpen ? 'translate(-50%, -50%) scale(1)' : 'none')};
   z-index: 1000;
   transition:
@@ -68,7 +66,7 @@ const ImageWrapper = styled.div`
   }
 `;
 
-const ImageOverlayText = styled.div<{ color?: string }>`
+const ImageOverlayText = styled.div`
   position: absolute;
   top: 50%;
   left: 50%;
@@ -81,16 +79,13 @@ const ImageOverlayText = styled.div<{ color?: string }>`
   font-weight: bold;
 `;
 
-interface StarWarsProps {
-  isPortalOpen: boolean;
-}
-
-const StarWars = React.forwardRef<HTMLDivElement, StarWarsProps>(({ isPortalOpen }, ref) => {
+const StarWars = React.forwardRef(({ isPortalOpen }, ref) => {
   useEffect(() => {
     console.log(isPortalOpen);
   }, [isPortalOpen]);
+
   return (
-    <StyledContainer>
+    <StyledContainer isPortalOpen={isPortalOpen}>
       <StarWarsDiv ref={ref}>
         <StyledHeader>Travel Back in Time</StyledHeader>
         <ul className="inline-grid grid-cols-2 grid-rows-2 gap-2 float-right" aria-label="XXX">
