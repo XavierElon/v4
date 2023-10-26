@@ -10,7 +10,7 @@ const StyledContainer = styled.div.attrs(props => ({}))`
   justify-content: center;
   position: fixed;
   top: ${props => (props.isPortalOpen ? '65%' : '-12%')};
-  left: ${props => (props.isPortalOpen ? '60%' : '40%')};
+  left: ${props => (props.isPortalOpen ? '65%' : '40%')};
   transform: ${props => (props.isPortalOpen ? 'translate(-50%, -50%) scale(1)' : 'none')};
   z-index: 1000;
   transition:
