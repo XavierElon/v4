@@ -40,8 +40,16 @@ const PortalContainer = styled.div`
 const IndexPage = ({ location }) => {
   const heroRef = useRef(null);
   const portalRef = useRef(null);
-  // const starWarsRef = (useRef < HTMLDivElement) | (null > null);
+  const starWarsRef = useRef(null);
   const [showPortal, setShowPortal] = useState(false);
+
+  const handleContainerClick = e => {
+    if (!showPortal) {
+      // Only toggle the portal if it's not enlarged
+      setShowPortal(true);
+    }
+    e.stopPropagation();
+  };
 
   useEffect(() => {
     const updateMousePosition = ev => {
@@ -60,10 +68,20 @@ const IndexPage = ({ location }) => {
 
   useEffect(() => {
     const handleOutsideClick = event => {
-      // console.log('Clicked target: ', event.target); // Check the clicked element
+      console.log('Clicked target: ', event.target); // Check the clicked element
 
-      if (showPortal && portalRef.current && !portalRef.current.contains(event.target)) {
-        setShowPortal(false);
+      if (
+        showPortal &&
+        portalRef.current &&
+        !portalRef.current.contains(event.target) &&
+        starWarsRef.current &&
+        !starWarsRef.current.contains(event.target)
+      ) {
+        console.log('Closing portal.'); // Check if the portal is being closed
+
+        if (showPortal && portalRef.current && !portalRef.current.contains(event.target)) {
+          setShowPortal(false);
+        }
       }
     };
 
