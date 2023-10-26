@@ -74,7 +74,7 @@ const StyledDiv = styled.div`
   }
 `;
 
-const WobbleComponent = () => {
+const Portal = () => {
   return (
     <StyledContainer>
       <StyledDiv />
@@ -86,4 +86,4 @@ const WobbleComponent = () => {
   );
 };
 
-export default WobbleComponent;
+export default Portal;

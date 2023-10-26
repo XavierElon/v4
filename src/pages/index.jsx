@@ -1,11 +1,24 @@
 import React, { useEffect, useRef, useState } from 'react';
-import styled from 'styled-components';
-import { Layout, Hero, About, Jobs, Featured, Projects, Contact } from '../components';
-import WobbleComponent from '@components/custom/Portal';
-import StarWars from '@components/custom/StarWars';
+import PropTypes from 'prop-types';
+import styled, { createGlobalStyle } from 'styled-components';
+import { Layout, Hero, About, Jobs, Featured, Projects, Contact } from '@components';
+import Portal from '@components/custom/Portal';
 
 const StyledMainContainer = styled.main`
   counter-reset: section;
+`;
+
+const GlobalStyle = createGlobalStyle`
+  html body {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--navy) !important;
+    background-image: radial-gradient(
+      circle 250px at var(--x, 10px) var(--y, 10px),
+      #0404b5 0%,
+      var(--navy) 100%
+    ) !important;
+  }
 `;
 
 const PortalContainer = styled.div`
@@ -66,7 +79,9 @@ const IndexPage = ({ location }) => {
       ) {
         console.log('Closing portal.'); // Check if the portal is being closed
 
-        setShowPortal(false);
+        if (showPortal && portalRef.current && !portalRef.current.contains(event.target)) {
+          setShowPortal(false);
+        }
       }
     };
 
@@ -77,31 +92,23 @@ const IndexPage = ({ location }) => {
     };
   }, [showPortal]);
 
+  const handlePortalOpen = e => {
+    if (!showPortal) {
+      // Only toggle the portal if it's not enlarged
+      setShowPortal(true);
+    }
+    e.stopPropagation();
+  };
+
   return (
     <div ref={heroRef}>
-      <style jsx global>
-        {`
-          html body {
-            height: 100vh;
-            width: 100%;
-            background-color: var(--navy) !important;
-
-            background-image: radial-gradient(
-              circle 250px at var(--x, 10px) var(--y, 10px),
-              #0404b5 0%,
-              var(--navy) 100%
-            ) !important;
-          }
-        `}
-      </style>
+      <GlobalStyle />
       <div>
         <Layout location={location}>
           <StyledMainContainer>
-            <PortalContainer centered={showPortal} onClick={handleContainerClick} ref={portalRef}>
-              <WobbleComponent />
-              {showPortal && <StarWars isPortalOpen={showPortal} ref={starWarsRef} />}
+            <PortalContainer centered={showPortal} onClick={handlePortalOpen} ref={portalRef}>
+              <Portal />
             </PortalContainer>
-
             <Hero />
             <About />
             <Jobs />
@@ -113,6 +120,10 @@ const IndexPage = ({ location }) => {
       </div>
     </div>
   );
+};
+
+IndexPage.propTypes = {
+  location: PropTypes.object.isRequired,
 };
 
 export default IndexPage;
