@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled, { createGlobalStyle } from 'styled-components';
 import { Layout, Hero, About, Jobs, Featured, Projects, Contact } from '@components';
 import Portal from '@components/custom/Portal';
+import StarWars from '@components/custom/StarWars';
 
 const StyledMainContainer = styled.main`
   counter-reset: section;
@@ -40,7 +41,7 @@ const PortalContainer = styled.div`
 const IndexPage = ({ location }) => {
   const heroRef = useRef(null);
   const portalRef = useRef(null);
-  // const starWarsRef = (useRef < HTMLDivElement) | (null > null);
+  const starWarsRef = useRef(null);
   const [showPortal, setShowPortal] = useState(false);
 
   useEffect(() => {
@@ -90,6 +91,7 @@ const IndexPage = ({ location }) => {
           <StyledMainContainer>
             <PortalContainer centered={showPortal} onClick={handlePortalOpen} ref={portalRef}>
               <Portal />
+              {showPortal && <StarWars isPortalOpen={showPortal} ref={starWarsRef} />}
             </PortalContainer>
             <Hero />
             <About />
