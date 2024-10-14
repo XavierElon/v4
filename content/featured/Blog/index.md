@@ -1,16 +1,15 @@
 ---
 date: '4'
-title: 'User Authentication & Authorization Service'
+title: 'WTF Programming Blog'
 cover: './demo.png'
-github: 'https://github.com/XavierElon/xsj-users-microservice'
-external: ''
+github: 'https://github.com/XavierElon/wtfprogrammingblog'
+external: 'https://wtfprogramming.io/'
 tech:
-  - Typescript
-  - Node
-  - Express
-  - Mocha
-  - Chai
+  - Hugo
+  - Javascript
+  - CSS
+  - HTML
 show: 'true'
 ---
 
-Microservice for user models, authorization and authentication written in NodeJs, Express and Typescript. Unit and integration tests are written in Mocha and Chai.
+Lightweight, SEO friendly personal blog built in Hugo, vanilla Javascript and CSS. Write various blog posts about career and software engineering.
