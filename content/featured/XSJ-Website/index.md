@@ -16,6 +16,7 @@ tech:
   - Nest.JS
   - Mocha
   - Chai
+show: 'true'
 ---
 
 A full-stack website I architected and built that contains it's own local user authorization and authentication microservice that I wrote myself. Users can log in and chat with each other as well as chat with ChatGPT. More features and enhancements to come in the future.

@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '5'
 title: 'RateMyClasses'
 cover: './demo.png'
 github: 'https://github.com/xavierelon/rate_my_classes'
