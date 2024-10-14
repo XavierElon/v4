@@ -7,7 +7,7 @@ external: ''
 tech:
   - Java
   - Docker
-showInProjects: true
+showInProjects: false
 ---
 
 A RESTful Java application that runs inside of a docker container.
