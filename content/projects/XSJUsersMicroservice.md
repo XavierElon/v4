@@ -9,7 +9,7 @@ tech:
   - Express
   - Mocha
   - Chai
-showInProjects: true
+showInProjects: false
 ---
 
 Microservice for user models, authorization and authentication written in NodeJs, Express and Typescript. Unit and integration tests are written in Mocha and Chai.
