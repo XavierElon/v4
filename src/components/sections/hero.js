@@ -69,13 +69,14 @@ const Hero = () => {
         <a href="https://boozallen.com/" target="_blank" rel="noreferrer">
           Booz Allen
         </a>{' '}
-        and will be attending{' '}
+        and am currently enrolled at{' '}
         <a href="https://omscs.gatech.edu/specialization-machine-learning">Georgia Tech</a> for my
-        MS in AI/Machine Leaning Specizalization starting in January 2024. I have 4 years of
-        professional experience. I am also working on building my own full stack application that
-        can be found <a href="https://xsj-ui.vercel.app/">here</a> which implements user
-        authentication and allows users to message each other instantly as well as message Chat GPT.
-        It was created in Next/Typescript/React, MongoDB, Node, Express, PostgreSQL and Firebase.
+        Masters in Computer Science specializing in AI/Machine Learning. I have 5+ years of
+        professional experience. I have several side projects that I have built over the years that
+        can be seen in my Portfolio. I have a passion for learning and building new things. I am
+        always looking for new opportunities to learn and grow. I currently newly reside in San
+        Francisco and am looking to join a local startup or Big Tech. My new portfolio website can
+        be found at <a href="https://xavierelon-portfolio.vercel.app/">here</a>.
       </p>
     </>
   );
