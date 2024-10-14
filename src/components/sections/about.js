@@ -133,6 +133,9 @@ const About = () => {
     'Node.js',
     'MongoDB',
     'Express',
+    'Angular',
+    'Tailwind',
+    'Next.js',
     'AWS',
     'Firebase',
     'PostgreSQL',
@@ -155,11 +158,9 @@ const About = () => {
               I’ve had the privilege of working at{' '}
               <a href="https://boozallen.com/">Booz Allen, a consulting firm</a>,{' '}
               <a href="https://deloitte.com/"> Deloitte, another consulting firm</a>,{' '}
-              <a href="https://asurance.com/">a tech insurance company</a>,{' '}
-              <a href="https://www.getaboard.org/">a non-profit based in Orlando</a>, and{' '}
-              <a href="https://ole.org/">an internal non-profit company</a>. My main focus now is
-              building my startup XSJ where I am currently leading two other engineers in building a
-              full-stack application.
+              <a href="https://ubreakifix.com/"> uBreakiFix</a>, I specialize in full-stack web
+              development with a focus on React, Angular, Node, and Python. I am working on
+              developing my machine learning engineer skills.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
