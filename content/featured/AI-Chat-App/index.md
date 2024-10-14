@@ -1,16 +1,18 @@
 ---
 date: '3'
-title: 'User Authentication & Authorization Service'
+title: 'AI Chatbot App'
 cover: './demo.png'
-github: 'https://github.com/XavierElon/xsj-users-microservice'
+github: 'https://github.com/XavierElon/ai-chatbot'
 external: ''
 tech:
   - Typescript
   - Node
   - Express
-  - Mocha
-  - Chai
+  - React
+  - Clerk
+  - Gemini
+  - Tailwind
 show: 'true'
 ---
 
-Microservice for user models, authorization and authentication written in NodeJs, Express and Typescript. Unit and integration tests are written in Mocha and Chai.
+Full-stack AI chatbot. Front-end built in React/Typescript. Backend built in Node/Express. Authentication handled by Clerk. AI model used is Gemini Pro.
